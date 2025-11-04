@@ -236,6 +236,22 @@ AimWare V6中文教程
     Triggerbot - 扳机
         Enable - 主开关
 
+        Trigger Key - 按住按键启用扳机
+
+        Auto Fire - 自动开火
+
+        Knife Trigger - 刀扳机
+            独立, 没开主开关也有效
+
+        Trigger Delay - 扳机延迟
+
+        Trigger Burst - 触发扳机后连续射击时间
+
+        Hit Chance - 命中率
+
+        Accuracy
+            Anti-Recoil - 自动压枪
+            Anti-Spread - 扩散预测
 
 暴力 - Ragebot
 
