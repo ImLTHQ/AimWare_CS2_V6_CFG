@@ -213,6 +213,28 @@ AimWare V6中文教程
 
 
 合法 - Legitbot
+    Aimbot - 自瞄
+        Enable - 主开关
+
+        Aim Key - 按住按键启用自瞄
+
+        Auto Pistol Interval - 自动开火(手枪)间隔
+            手枪长按开火时按照间隔开火
+
+        Hitbox Selection - 自瞄部位
+            优先级
+                First -  首先
+                Second - 其次
+                Third - 第三
+                Fourth - 第四
+                Ignore - 忽略
+
+            Hitbox Advance Mulitplier - 自瞄部位切换速度
+
+            Nearest To Crosshair - 先瞄距离准星最近部位
+
+    Triggerbot - 扳机
+        Enable - 主开关
 
 
 暴力 - Ragebot
