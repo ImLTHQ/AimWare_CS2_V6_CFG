@@ -16,7 +16,7 @@
   - Shot Names短名
   - Off关闭
 
-### 参数
+### 参数 - Configurations
 
 - 圆圈箭头 - 刷新
 - 加号 - 创建参数
@@ -38,7 +38,7 @@
     - Select on toggle option - 打开时的值
     - Select on untoggle option - 关闭时的值
 
-## 杂项
+## 杂项 - Miscellaneous
 
 ### Secure Mode
 - 帮你关掉一些VAC风险高的选项
@@ -97,7 +97,7 @@
 - 快速急停
 - 也是坏的等修
 
-## 视觉
+## 视觉 - Visuals
 
 ### 分类
 - **Enemy** - 敌人
@@ -137,7 +137,49 @@
 - **Metallic** - 金属
 - **Off** - 关闭
 
-## 合法
+## 世界 - World
+
+### Third Person Enable
+- 第三人称开关
+
+### Third Person Distance
+- 第三人称距离
+
+### View FOV
+- 第一人称视野大小
+
+### Viewmodel FOV
+- 手臂距离
+
+### Radar
+- 雷达
+
+### Visualize Aimbot
+- 显示瞄准点
+- peek前可视化自瞄命中位置
+
+### Crosshair
+- 准星
+
+### Crosshair Recoil
+- 后坐力与扩散显示
+
+### Effects Removal
+- **No Flash** - 移除闪光
+- **No Smoke** - 移除烟雾
+- **No Recoil** - 移除后坐抖动
+- **No Scope** - 移除开镜放大
+- **No Scope Overlay** - 移除开镜移动的准星虚化
+- **No Sky** - 移除天空
+
+### Night Mode
+- 省略
+
+## 合法 - Legitbot
+
+*内容待补充*
+
+## 暴力 - Ragebot
 
 *内容待补充*
 
