@@ -204,7 +204,78 @@
 
 ## 合法 (Legitbot)
 
-> 内容待补充
+### Aimbot - 自瞄
+
+- **Enable** - 主开关
+- **Aim Key** - 按住按键启用自瞄
+- **Auto Pistol Interval** - 自动开火(手枪)间隔
+  - 手枪长按开火时按照间隔开火
+
+### Hitbox Selection - 自瞄部位
+
+#### 优先级
+- **First** - 首先
+- **Second** - 其次
+- **Third** - 第三
+- **Fourth** - 第四
+- **Ignore** - 忽略
+
+- **Hitbox Advance Multiplier** - 自瞄部位切换速度
+- **Nearest To Crosshair** - 先瞄距离准星最近部位
+
+### Triggerbot - 扳机
+
+- **Enable** - 主开关
+- **Trigger Key** - 按住按键启用扳机
+- **Auto Fire** - 自动开火
+- **Knife Trigger** - 刀扳机
+  - 独立，没开主开关也有效
+- **Trigger Delay** - 扳机延迟
+- **Trigger Burst** - 触发扳机后连续射击时间
+- **Hit Chance** - 命中率
+
+### Accuracy
+
+- **Anti-Recoil** - 自动压枪
+- **Anti-Spread** - 扩散预测
+
+### Hitboxes - 扳机部位
+
+#### 开火模式
+- **Lethal** - 致命
+- **Auto** - 自动
+- **Any** - 任意
+- **Ignore** - 忽略
+
+> PS: Any 和 Auto 区别不大
+
+### Weapon - 武器数值
+
+- **Recoil Control System** - 压枪
+  - Aiming - 自瞄时压枪
+  - Aiming and Standalone - 开火时压枪
+- **Horizontal Recoil** - 水平后坐力
+- **Vertical Recoil** - 垂直后坐力
+- **Minimum FOV Range** - 最小自瞄范围
+- **Maximum FOV Range** - 最大自瞄范围
+- **Non-Sticky Target** - 目标超出最大视野范围后取消自瞄
+- **Target Switch Delay** - 目标切换延迟
+- **First Shot Delay** - 首次开火延迟
+- **Smooth Factor** - 平滑系数
+
+### Smooth Method - 平滑方式
+
+- **Dynamic** - 动态
+- **Static** - 静态
+
+- **Randomize Factor** - 随机系数
+  - 增加自瞄的随机性
+  - 数值越高，自瞄的随机抖动越大
+- **Curve Factor** - 曲线系数
+  - 自瞄的非线性程度
+  - 模拟更贴近真实操作的瞄准轨迹
+- **Auto Wall** - 自动穿墙
+- **Through Smoke** - 穿烟
 
 ## 暴力 (Ragebot)
 

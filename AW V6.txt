@@ -282,7 +282,7 @@ AimWare V6中文教程
 
         Smooth Factor - 平滑系数
 
-        Smooth Method
+        Smooth Method - 平滑方式
             Dynamic - 动态
             Static - 静态
 
