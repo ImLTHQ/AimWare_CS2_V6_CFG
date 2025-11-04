@@ -1,0 +1,102 @@
+AimWare V6中文教程
+有更新请发issue提醒, 我会及时修改
+
+设置与参数
+    设置
+        DPI Scale
+            调整UI大小
+        Theme
+            主题
+        Menu Key
+            菜单开关绑定
+        Console Key
+            控制台开关绑定
+        Show Binds
+            显示按键绑定
+                Vars变量名
+                Names名称
+                Shot Names短名
+                Off关闭
+    参数
+        圆圈箭头是刷新
+        加号是创建参数
+        三角是加载参数
+        软盘是保存参数
+        勾是设置注入自动加载
+        左箭头是从剪贴板导入
+        右箭头是导出到剪贴板
+        垃圾桶是删除
+    按键绑定
+        圆角矩形
+            按住时启用
+        右键开关或条
+            Bind Hold为按住时启用
+                Select on press option
+                按住时的值
+
+                Select on release option
+                松开时的值
+
+            Bind Toggle为按键开关切换
+                Select on toggle option
+                打开时的值
+
+                Select on untoggle option
+                关闭时的值
+
+
+杂项
+    Secure Mode
+        帮你关掉一些VAC风险高的选项
+        目前默认的Strict模式是不允许开启自瞄和扳机的, 如果要玩得调成On
+        如果要玩HvH服务器需要把它改成Off
+    Chat Spam
+        自动发送AW的广告
+    Auto-Accept Match
+        自动准备
+        AW是最后一个准备(就是9个人点准备才自动准备)
+    Preserve Killfeed
+        保留击杀记录
+        包括自己造成的击杀和自己被谁击杀
+    Show Spectators
+        显示观战者
+    Anti-OBS
+        绕过录屏软件
+        录屏软件不显示外挂界面
+        目前无效
+    Show Watermark
+        显示AW水印
+    Quick Plant
+        快速下包
+        测试下来没什么用
+    Log
+        显示日志
+        包括AW控制台, 玩家购买, 造成伤害
+    Auto Strafe
+        自动转向
+        与Auto Jump搭配提高空中速度
+    Auto Jump
+        自动连跳
+        Leigt是合法连跳
+        Perfect是完美连跳
+        Off为关闭
+    Edge Jump
+        按住时在边缘自动跳跃
+    Slow Walk
+        按住时以设定速度慢走
+        速度过低(50%及以下)直接不动
+        等修复吧
+    Quick Stop
+        快速急停
+        也是坏的等修
+
+
+视觉
+    省略
+
+
+合法
+
+
+
+2025-11-04
