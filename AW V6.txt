@@ -117,6 +117,8 @@ AimWare V6中文教程
         Attachments Occluded - 武器遮挡
         Ragdoll Visible - 布娃娃可见
         Ragdoll Occluded - 布娃娃遮挡
+        Weapon Visible - 武器可见
+        Arms Visible - 手臂可见
 
         材质
             Flat - 平面
