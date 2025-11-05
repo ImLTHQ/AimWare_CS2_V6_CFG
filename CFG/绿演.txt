@@ -50,9 +50,9 @@ esp.enemy.health.num "On"
 esp.enemy.model.glow "Off"
 esp.enemy.model.glow.clr 255 255 255 133
 esp.enemy.model.occluded "Glow"
-esp.enemy.model.occluded.clr 200 150 255 80
+esp.enemy.model.occluded.clr 200 150 255 16
 esp.enemy.model.visible "Off"
-esp.enemy.model.visible.clr 200 150 255 80
+esp.enemy.model.visible.clr 200 150 255 5
 esp.enemy.money.anchor 3
 esp.enemy.money.clr1 116 235 52 255
 esp.enemy.money.enable "Off"
@@ -372,7 +372,7 @@ lbot.weapon.aim.zeus.curve 0.5
 lbot.weapon.aim.zeus.randomize 4
 lbot.weapon.aim.zeus.smooth 4
 lbot.weapon.aim.zeus.smoothtype "Static"
-lbot.weapon.target "Auto Sniper"
+lbot.weapon.target "Rifle"
 lbot.weapon.target.asniper.fsd 0
 lbot.weapon.target.asniper.maxfov 0
 lbot.weapon.target.asniper.minfov 0
@@ -394,10 +394,10 @@ lbot.weapon.target.pistol.minfov 0
 lbot.weapon.target.pistol.nst "Off"
 lbot.weapon.target.pistol.tsd 0
 lbot.weapon.target.rifle.fsd 0
-lbot.weapon.target.rifle.maxfov 0
+lbot.weapon.target.rifle.maxfov 10
 lbot.weapon.target.rifle.minfov 0
-lbot.weapon.target.rifle.nst "Off"
-lbot.weapon.target.rifle.tsd 0
+lbot.weapon.target.rifle.nst "On"
+lbot.weapon.target.rifle.tsd 250
 lbot.weapon.target.scout.fsd 0
 lbot.weapon.target.scout.maxfov 0
 lbot.weapon.target.scout.minfov 0
