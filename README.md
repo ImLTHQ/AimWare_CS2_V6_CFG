@@ -4,14 +4,14 @@
 
 ## 目录
 
-- [设置与参数](#设置与参数-settings-and-configurations)
+- [设置与参数](#设置与参数)
 - [杂项](#杂项-miscellaneous)
 - [视觉](#视觉-visuals)
 - [世界](#世界-world)
 - [合法](#合法-legitbot)
 - [暴力](#暴力-ragebot)
 
-## 设置与参数 (Settings and Configurations)
+## 设置与参数
 
 ### 设置
 
