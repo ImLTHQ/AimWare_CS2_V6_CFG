@@ -312,7 +312,7 @@ lbot.weapon.accuracy.rifle.vrecoil 100
 lbot.weapon.accuracy.scout.hrecoil 100
 lbot.weapon.accuracy.scout.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.scout.vrecoil 100
-lbot.weapon.accuracy.shared.hrecoil 100
+lbot.weapon.accuracy.shared.hrecoil 0
 lbot.weapon.accuracy.shared.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.shared.vrecoil 100
 lbot.weapon.accuracy.shotgun.hrecoil 0
@@ -465,7 +465,7 @@ misc.log.damage "Off"
 misc.log.purchases "Off"
 misc.master "On"
 misc.quickplant "Off"
-misc.quickstop "Off"
+misc.quickstop "On"
 misc.securemode "On"
 misc.showspec "On"
 misc.slowkey 0
