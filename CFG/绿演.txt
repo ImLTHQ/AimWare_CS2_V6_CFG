@@ -183,7 +183,7 @@ esp.weapon.name.anchor 0
 esp.weapon.name.clr1 255 255 255 255
 esp.weapon.name.enable "On"
 esp.weapon.name.style "Icon"
-lbot.aim.autopistol 5
+lbot.aim.autopistol 0
 lbot.aim.enable "On"
 lbot.aim.hitbox "Shared"
 lbot.aim.hitbox.asniper.hitbox 1 1 1 1 1 1 1 1 
@@ -313,7 +313,7 @@ lbot.weapon.accuracy.scout.hrecoil 100
 lbot.weapon.accuracy.scout.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.scout.vrecoil 100
 lbot.weapon.accuracy.shared.hrecoil 100
-lbot.weapon.accuracy.shared.rcs "Aiming"
+lbot.weapon.accuracy.shared.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.shared.vrecoil 100
 lbot.weapon.accuracy.shotgun.hrecoil 0
 lbot.weapon.accuracy.shotgun.rcs "Off"
@@ -354,7 +354,7 @@ lbot.weapon.aim.scout.smooth 20
 lbot.weapon.aim.scout.smoothtype "Dynamic"
 lbot.weapon.aim.shared.curve 0.25
 lbot.weapon.aim.shared.randomize 1
-lbot.weapon.aim.shared.smooth 10
+lbot.weapon.aim.shared.smooth 5
 lbot.weapon.aim.shared.smoothtype "Dynamic"
 lbot.weapon.aim.shotgun.curve 0.25
 lbot.weapon.aim.shotgun.randomize 0
@@ -372,7 +372,7 @@ lbot.weapon.aim.zeus.curve 0.5
 lbot.weapon.aim.zeus.randomize 4
 lbot.weapon.aim.zeus.smooth 4
 lbot.weapon.aim.zeus.smoothtype "Static"
-lbot.weapon.target "Rifle"
+lbot.weapon.target "Shared"
 lbot.weapon.target.asniper.fsd 0
 lbot.weapon.target.asniper.maxfov 0
 lbot.weapon.target.asniper.minfov 0
@@ -403,11 +403,11 @@ lbot.weapon.target.scout.maxfov 0
 lbot.weapon.target.scout.minfov 0
 lbot.weapon.target.scout.nst "Off"
 lbot.weapon.target.scout.tsd 0
-lbot.weapon.target.shared.fsd 0
-lbot.weapon.target.shared.maxfov 10
+lbot.weapon.target.shared.fsd 300
+lbot.weapon.target.shared.maxfov 1
 lbot.weapon.target.shared.minfov 0
 lbot.weapon.target.shared.nst "On"
-lbot.weapon.target.shared.tsd 250
+lbot.weapon.target.shared.tsd 300
 lbot.weapon.target.shotgun.fsd 0
 lbot.weapon.target.shotgun.maxfov 0
 lbot.weapon.target.shotgun.minfov 0
