@@ -88,7 +88,7 @@ esp.local.model.visible "Off"
 esp.local.model.visible.clr 0 255 255 80
 esp.local.weaponmodel.visible "Off"
 esp.local.weaponmodel.visible.clr 255 255 255 255
-esp.master "Off"
+esp.master "On"
 esp.team.ammo.anchor 1
 esp.team.ammo.clr1 0 136 236 255
 esp.team.ammo.clr2 0 83 166 255
@@ -767,5 +767,4 @@ world.wallbanginfo.circle "Off"
 world.wallbanginfo.crosshair "Off"
 world.wallbanginfo.dmg "Off"
 unbindall
-bindhold "Mouse5" esp.master "off" "on" 0
 unalias
