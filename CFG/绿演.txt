@@ -207,7 +207,7 @@ lbot.aim.hitbox.scout.hitbox 1 1 1 1 1 1 1 1
 lbot.aim.hitbox.scout.hitboxstep 4
 lbot.aim.hitbox.scout.nearest "On"
 lbot.aim.hitbox.shared.hitbox 4 1 1 1 1 1 1 1 
-lbot.aim.hitbox.shared.hitboxstep 4
+lbot.aim.hitbox.shared.hitboxstep 2
 lbot.aim.hitbox.shared.nearest "Off"
 lbot.aim.hitbox.shotgun.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.shotgun.hitboxstep 4
@@ -408,7 +408,7 @@ lbot.weapon.target.scout.tsd 0
 lbot.weapon.target.shared.fsd 300
 lbot.weapon.target.shared.maxfov 2
 lbot.weapon.target.shared.minfov 0
-lbot.weapon.target.shared.nst "Off"
+lbot.weapon.target.shared.nst "On"
 lbot.weapon.target.shared.tsd 300
 lbot.weapon.target.shotgun.fsd 0
 lbot.weapon.target.shotgun.maxfov 0
