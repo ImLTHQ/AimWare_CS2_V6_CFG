@@ -337,5 +337,20 @@ AimWare V6中文教程
             按住时自动蹲
             如果敌人在站立时可击中, 自动站立
 
+    Anti-Aim - 反瞄准
+        Enabled - 主开关
+
+        Pitch Angle - 俯仰角度
+            Down - 低头
+            Up - 抬头
+            Fake Up - 假抬头
+                实际上是抬头, 等修复
+            Zero - 0度
+            Off - 关闭
+
+        Yaw Angle - 偏航角度
+            Backward - 背身
+            Off - 关闭
+
 
 最后更新：2025-11-07
