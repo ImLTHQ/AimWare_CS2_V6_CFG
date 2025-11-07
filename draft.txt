@@ -27,6 +27,12 @@ AimWare V6中文教程
             Names - 名称
             Shot Names - 短名
             Off - 关闭
+
+        Show UI Hints - UI提示开关
+            鼠标移到功能上显示简介的开关
+
+        UI Opacity - UI不透明度
+
     参数 - Configurations
         圆圈箭头 - 刷新
         加号 - 创建参数
@@ -36,6 +42,7 @@ AimWare V6中文教程
         左箭头 - 从剪贴板导入
         右箭头 - 导出到剪贴板
         垃圾桶 - 删除
+
     按键绑定
         圆角矩形
             按住时启用
@@ -302,4 +309,4 @@ AimWare V6中文教程
 暴力 - Ragebot
 
 
-2025-11-04
+最后更新：2025-11-04
