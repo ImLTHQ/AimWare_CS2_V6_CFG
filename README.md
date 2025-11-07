@@ -24,6 +24,9 @@
   - Names - 名称
   - Shot Names - 短名
   - Off - 关闭
+- **Show UI Hints** - UI提示开关
+  - UI提示开关
+- **UI Opacity** - UI不透明度
 
 ### 参数 (Configurations)
 
@@ -283,4 +286,4 @@
 
 ---
 
-*最后更新：2025-11-04*
+*最后更新：2025-11-07*
