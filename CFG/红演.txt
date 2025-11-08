@@ -185,7 +185,7 @@ esp.weapon.name.anchor 0
 esp.weapon.name.clr1 255 255 255 255
 esp.weapon.name.enable "On"
 esp.weapon.name.style "Icon"
-lbot.aim.autopistol 5
+lbot.aim.autopistol 0
 lbot.aim.enable "On"
 lbot.aim.hitbox "Shared"
 lbot.aim.hitbox.asniper.hitbox 1 1 1 1 1 1 1 1 
@@ -760,7 +760,7 @@ world.recoilcrosshair "Off"
 world.recoilcrosshair.clr 0 255 255 255
 world.smoke "On"
 world.smoke.clr 255 255 255 133
-world.thirdperson "On"
+world.thirdperson "Off"
 world.thirdpersondist 150
 world.viewmodelfov 64
 world.visualize "On"
