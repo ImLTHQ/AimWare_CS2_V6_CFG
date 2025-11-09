@@ -232,7 +232,7 @@ lbot.trg.hitbox.lmg.hitbox 1 1 0 1 0 0 0 0
 lbot.trg.hitbox.pistol.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.rifle.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
-lbot.trg.hitbox.shared.hitbox 2 2 2 2 2 2 2 2 
+lbot.trg.hitbox.shared.hitbox 3 3 3 3 3 3 3 3 
 lbot.trg.hitbox.shotgun.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.smg.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.sniper.hitbox 1 1 0 1 0 0 0 0 
@@ -270,8 +270,8 @@ lbot.trg.weapon.scout.accuracy.antispread "On"
 lbot.trg.weapon.scout.burst 0
 lbot.trg.weapon.scout.delay 0
 lbot.trg.weapon.scout.hitchance 25
-lbot.trg.weapon.shared.accuracy.antirecoil "Off"
-lbot.trg.weapon.shared.accuracy.antispread "Off"
+lbot.trg.weapon.shared.accuracy.antirecoil "On"
+lbot.trg.weapon.shared.accuracy.antispread "On"
 lbot.trg.weapon.shared.burst 0
 lbot.trg.weapon.shared.delay 0
 lbot.trg.weapon.shared.hitchance 0
@@ -374,7 +374,7 @@ lbot.weapon.aim.zeus.curve 0.5
 lbot.weapon.aim.zeus.randomize 4
 lbot.weapon.aim.zeus.smooth 4
 lbot.weapon.aim.zeus.smoothtype "Static"
-lbot.weapon.target "Light Machine Gun"
+lbot.weapon.target "Shared"
 lbot.weapon.target.asniper.fsd 0
 lbot.weapon.target.asniper.maxfov 0
 lbot.weapon.target.asniper.minfov 0
@@ -405,11 +405,11 @@ lbot.weapon.target.scout.maxfov 0
 lbot.weapon.target.scout.minfov 0
 lbot.weapon.target.scout.nst "Off"
 lbot.weapon.target.scout.tsd 0
-lbot.weapon.target.shared.fsd 0
-lbot.weapon.target.shared.maxfov 10
+lbot.weapon.target.shared.fsd 300
+lbot.weapon.target.shared.maxfov 5
 lbot.weapon.target.shared.minfov 0
-lbot.weapon.target.shared.nst "On"
-lbot.weapon.target.shared.tsd 250
+lbot.weapon.target.shared.nst "Off"
+lbot.weapon.target.shared.tsd 300
 lbot.weapon.target.shotgun.fsd 0
 lbot.weapon.target.shotgun.maxfov 0
 lbot.weapon.target.shotgun.minfov 0
