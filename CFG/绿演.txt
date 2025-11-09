@@ -374,7 +374,7 @@ lbot.weapon.aim.zeus.curve 0.5
 lbot.weapon.aim.zeus.randomize 4
 lbot.weapon.aim.zeus.smooth 4
 lbot.weapon.aim.zeus.smoothtype "Static"
-lbot.weapon.target "Rifle"
+lbot.weapon.target "Light Machine Gun"
 lbot.weapon.target.asniper.fsd 0
 lbot.weapon.target.asniper.maxfov 0
 lbot.weapon.target.asniper.minfov 0
@@ -385,7 +385,7 @@ lbot.weapon.target.hpistol.maxfov 0
 lbot.weapon.target.hpistol.minfov 0
 lbot.weapon.target.hpistol.nst "Off"
 lbot.weapon.target.hpistol.tsd 0
-lbot.weapon.target.lmg.fsd 0
+lbot.weapon.target.lmg.fsd 250
 lbot.weapon.target.lmg.maxfov 10
 lbot.weapon.target.lmg.minfov 0
 lbot.weapon.target.lmg.nst "Off"
@@ -415,7 +415,7 @@ lbot.weapon.target.shotgun.maxfov 0
 lbot.weapon.target.shotgun.minfov 0
 lbot.weapon.target.shotgun.nst "Off"
 lbot.weapon.target.shotgun.tsd 0
-lbot.weapon.target.smg.fsd 0
+lbot.weapon.target.smg.fsd 250
 lbot.weapon.target.smg.maxfov 10
 lbot.weapon.target.smg.minfov 0
 lbot.weapon.target.smg.nst "Off"
