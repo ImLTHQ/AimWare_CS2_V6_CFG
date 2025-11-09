@@ -458,7 +458,7 @@ menu 522 247
 misc.antiobs "Off"
 misc.autoaccept "On"
 misc.autojump "Perfect"
-misc.autostrafe "Off"
+misc.autostrafe "On"
 misc.chatspam "Off"
 misc.edgejump 69
 misc.killfeed "On"
@@ -771,5 +771,4 @@ world.wallbanginfo.dmg "Off"
 unbindall
 bindtoggle "Mouse3" world.thirdperson "Off" "On" 0
 bindhold "Mouse5" lbot.trg.hitbox.shared.hitbox "1 3 3 3 3 3 3 3" "3 3 3 3 3 3 3 3" 0
-bindhold "Space" misc.autostrafe "Off" "On" 0
 unalias
