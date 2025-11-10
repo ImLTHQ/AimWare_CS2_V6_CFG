@@ -206,7 +206,7 @@ lbot.aim.hitbox.rifle.nearest "On"
 lbot.aim.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.scout.hitboxstep 4
 lbot.aim.hitbox.scout.nearest "On"
-lbot.aim.hitbox.shared.hitbox 4 1 1 1 1 1 1 1 
+lbot.aim.hitbox.shared.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.shared.hitboxstep 4
 lbot.aim.hitbox.shared.nearest "Off"
 lbot.aim.hitbox.shotgun.hitbox 1 1 1 1 1 1 1 1 
@@ -232,7 +232,7 @@ lbot.trg.hitbox.lmg.hitbox 1 1 0 1 0 0 0 0
 lbot.trg.hitbox.pistol.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.rifle.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
-lbot.trg.hitbox.shared.hitbox 3 3 3 3 3 3 3 3 
+lbot.trg.hitbox.shared.hitbox 1 0 0 0 0 0 0 0 
 lbot.trg.hitbox.shotgun.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.smg.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.sniper.hitbox 1 1 0 1 0 0 0 0 
@@ -270,8 +270,8 @@ lbot.trg.weapon.scout.accuracy.antispread "On"
 lbot.trg.weapon.scout.burst 0
 lbot.trg.weapon.scout.delay 0
 lbot.trg.weapon.scout.hitchance 25
-lbot.trg.weapon.shared.accuracy.antirecoil "On"
-lbot.trg.weapon.shared.accuracy.antispread "On"
+lbot.trg.weapon.shared.accuracy.antirecoil "Off"
+lbot.trg.weapon.shared.accuracy.antispread "Off"
 lbot.trg.weapon.shared.burst 0
 lbot.trg.weapon.shared.delay 0
 lbot.trg.weapon.shared.hitchance 0
@@ -406,7 +406,7 @@ lbot.weapon.target.scout.minfov 0
 lbot.weapon.target.scout.nst "Off"
 lbot.weapon.target.scout.tsd 0
 lbot.weapon.target.shared.fsd 300
-lbot.weapon.target.shared.maxfov 5
+lbot.weapon.target.shared.maxfov 10
 lbot.weapon.target.shared.minfov 0
 lbot.weapon.target.shared.nst "Off"
 lbot.weapon.target.shared.tsd 300
