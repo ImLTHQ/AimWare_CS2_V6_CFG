@@ -232,7 +232,7 @@ lbot.trg.hitbox.lmg.hitbox 1 1 0 1 0 0 0 0
 lbot.trg.hitbox.pistol.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.rifle.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
-lbot.trg.hitbox.shared.hitbox 1 0 0 0 0 0 0 0 
+lbot.trg.hitbox.shared.hitbox 2 2 2 2 2 2 2 2 
 lbot.trg.hitbox.shotgun.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.smg.hitbox 1 1 0 1 0 0 0 0 
 lbot.trg.hitbox.sniper.hitbox 1 1 0 1 0 0 0 0 
@@ -270,11 +270,11 @@ lbot.trg.weapon.scout.accuracy.antispread "On"
 lbot.trg.weapon.scout.burst 0
 lbot.trg.weapon.scout.delay 0
 lbot.trg.weapon.scout.hitchance 25
-lbot.trg.weapon.shared.accuracy.antirecoil "Off"
+lbot.trg.weapon.shared.accuracy.antirecoil "On"
 lbot.trg.weapon.shared.accuracy.antispread "Off"
 lbot.trg.weapon.shared.burst 0
-lbot.trg.weapon.shared.delay 0
-lbot.trg.weapon.shared.hitchance 100
+lbot.trg.weapon.shared.delay 200
+lbot.trg.weapon.shared.hitchance 50
 lbot.trg.weapon.shotgun.accuracy.antirecoil "On"
 lbot.trg.weapon.shotgun.accuracy.antispread "On"
 lbot.trg.weapon.shotgun.burst 200
