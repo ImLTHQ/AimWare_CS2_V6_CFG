@@ -206,8 +206,8 @@ lbot.aim.hitbox.rifle.nearest "On"
 lbot.aim.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.scout.hitboxstep 4
 lbot.aim.hitbox.scout.nearest "On"
-lbot.aim.hitbox.shared.hitbox 3 4 1 3 3 2 1 1 
-lbot.aim.hitbox.shared.hitboxstep 4
+lbot.aim.hitbox.shared.hitbox 3 4 1 3 2 1 1 1 
+lbot.aim.hitbox.shared.hitboxstep 2
 lbot.aim.hitbox.shared.nearest "Off"
 lbot.aim.hitbox.shotgun.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.shotgun.hitboxstep 4
@@ -316,7 +316,7 @@ lbot.weapon.accuracy.scout.rcs "Off"
 lbot.weapon.accuracy.scout.vrecoil 0
 lbot.weapon.accuracy.shared.hrecoil 50
 lbot.weapon.accuracy.shared.rcs "Aiming and Standalone"
-lbot.weapon.accuracy.shared.vrecoil 100
+lbot.weapon.accuracy.shared.vrecoil 80
 lbot.weapon.accuracy.shotgun.hrecoil 0
 lbot.weapon.accuracy.shotgun.rcs "Aiming"
 lbot.weapon.accuracy.shotgun.vrecoil 100
@@ -329,7 +329,7 @@ lbot.weapon.accuracy.sniper.vrecoil 0
 lbot.weapon.accuracy.zeus.hrecoil 0
 lbot.weapon.accuracy.zeus.rcs "Off"
 lbot.weapon.accuracy.zeus.vrecoil 0
-lbot.weapon.aim "Heavy Pistol"
+lbot.weapon.aim "Shared"
 lbot.weapon.aim.asniper.curve 0.25
 lbot.weapon.aim.asniper.randomize 0
 lbot.weapon.aim.asniper.smooth 10
@@ -356,7 +356,7 @@ lbot.weapon.aim.scout.smooth 5
 lbot.weapon.aim.scout.smoothtype "Dynamic"
 lbot.weapon.aim.shared.curve 0.25
 lbot.weapon.aim.shared.randomize 0
-lbot.weapon.aim.shared.smooth 5
+lbot.weapon.aim.shared.smooth 10
 lbot.weapon.aim.shared.smoothtype "Dynamic"
 lbot.weapon.aim.shotgun.curve 0.25
 lbot.weapon.aim.shotgun.randomize 0
@@ -374,7 +374,7 @@ lbot.weapon.aim.zeus.curve 0.25
 lbot.weapon.aim.zeus.randomize 0
 lbot.weapon.aim.zeus.smooth 5
 lbot.weapon.aim.zeus.smoothtype "Dynamic"
-lbot.weapon.target "Heavy Pistol"
+lbot.weapon.target "Shared"
 lbot.weapon.target.asniper.fsd 300
 lbot.weapon.target.asniper.maxfov 2.5
 lbot.weapon.target.asniper.minfov 0
@@ -395,8 +395,8 @@ lbot.weapon.target.pistol.maxfov 2.5
 lbot.weapon.target.pistol.minfov 0
 lbot.weapon.target.pistol.nst "Off"
 lbot.weapon.target.pistol.tsd 300
-lbot.weapon.target.rifle.fsd 300
-lbot.weapon.target.rifle.maxfov 5
+lbot.weapon.target.rifle.fsd 100
+lbot.weapon.target.rifle.maxfov 2.5
 lbot.weapon.target.rifle.minfov 0
 lbot.weapon.target.rifle.nst "Off"
 lbot.weapon.target.rifle.tsd 300
@@ -406,7 +406,7 @@ lbot.weapon.target.scout.minfov 0
 lbot.weapon.target.scout.nst "Off"
 lbot.weapon.target.scout.tsd 300
 lbot.weapon.target.shared.fsd 300
-lbot.weapon.target.shared.maxfov 5
+lbot.weapon.target.shared.maxfov 2.5
 lbot.weapon.target.shared.minfov 0
 lbot.weapon.target.shared.nst "Off"
 lbot.weapon.target.shared.tsd 300
