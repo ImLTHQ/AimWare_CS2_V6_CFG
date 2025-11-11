@@ -25,7 +25,7 @@ esp.enemy.box.clr1 240 60 30 255
 esp.enemy.box.enable "Off"
 esp.enemy.box.precision "Off"
 esp.enemy.box.style "Thin Line"
-esp.enemy.flags.anchor 3
+esp.enemy.flags.anchor 2
 esp.enemy.flags.defusing "On"
 esp.enemy.flags.defusing.clr 244 70 66 255
 esp.enemy.flags.enable "On"
@@ -162,7 +162,7 @@ esp.team.weapon.filter.active "On"
 esp.team.weapon.filter.inventory "Off"
 esp.team.weapon.filter.nades "Off"
 esp.team.weapon.style "Icon"
-esp.weapon.ammo.anchor 1
+esp.weapon.ammo.anchor 0
 esp.weapon.ammo.clr1 0 136 236 255
 esp.weapon.ammo.clr2 0 83 166 255
 esp.weapon.ammo.enable "On"
