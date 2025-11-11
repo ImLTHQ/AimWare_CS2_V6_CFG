@@ -354,9 +354,9 @@ lbot.weapon.aim.scout.curve 0.25
 lbot.weapon.aim.scout.randomize 0
 lbot.weapon.aim.scout.smooth 5
 lbot.weapon.aim.scout.smoothtype "Dynamic"
-lbot.weapon.aim.shared.curve 0.25
-lbot.weapon.aim.shared.randomize 0
-lbot.weapon.aim.shared.smooth 10
+lbot.weapon.aim.shared.curve 0.5
+lbot.weapon.aim.shared.randomize 2.5
+lbot.weapon.aim.shared.smooth 15
 lbot.weapon.aim.shared.smoothtype "Dynamic"
 lbot.weapon.aim.shotgun.curve 0.25
 lbot.weapon.aim.shotgun.randomize 0
@@ -405,11 +405,11 @@ lbot.weapon.target.scout.maxfov 2.5
 lbot.weapon.target.scout.minfov 0
 lbot.weapon.target.scout.nst "Off"
 lbot.weapon.target.scout.tsd 300
-lbot.weapon.target.shared.fsd 250
-lbot.weapon.target.shared.maxfov 2.5
+lbot.weapon.target.shared.fsd 300
+lbot.weapon.target.shared.maxfov 2
 lbot.weapon.target.shared.minfov 0
 lbot.weapon.target.shared.nst "Off"
-lbot.weapon.target.shared.tsd 250
+lbot.weapon.target.shared.tsd 300
 lbot.weapon.target.shotgun.fsd 300
 lbot.weapon.target.shotgun.maxfov 10
 lbot.weapon.target.shotgun.minfov 0
@@ -769,6 +769,4 @@ world.wallbanginfo.circle "Off"
 world.wallbanginfo.crosshair "Off"
 world.wallbanginfo.dmg "Off"
 unbindall
-bindhold "Mouse3" world.thirdperson "Off" "On" 0
-bindhold "Mouse5" world.crosshair "Off" "On" 0
 unalias
