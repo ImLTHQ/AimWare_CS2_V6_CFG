@@ -206,7 +206,7 @@ lbot.aim.hitbox.rifle.nearest "On"
 lbot.aim.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.scout.hitboxstep 4
 lbot.aim.hitbox.scout.nearest "On"
-lbot.aim.hitbox.shared.hitbox 1 1 1 1 1 1 1 1 
+lbot.aim.hitbox.shared.hitbox 0 1 1 1 1 1 1 1 
 lbot.aim.hitbox.shared.hitboxstep 4
 lbot.aim.hitbox.shared.nearest "Off"
 lbot.aim.hitbox.shotgun.hitbox 1 1 1 1 1 1 1 1 
@@ -769,5 +769,4 @@ world.wallbanginfo.circle "Off"
 world.wallbanginfo.crosshair "Off"
 world.wallbanginfo.dmg "Off"
 unbindall
-bindtoggle "Capslock" world.crosshair "Off" "On" 0
 unalias
