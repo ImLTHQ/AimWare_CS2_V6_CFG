@@ -206,7 +206,7 @@ lbot.aim.hitbox.rifle.nearest "On"
 lbot.aim.hitbox.scout.hitbox 1 1 1 1 1 1 1 1 
 lbot.aim.hitbox.scout.hitboxstep 4
 lbot.aim.hitbox.scout.nearest "On"
-lbot.aim.hitbox.shared.hitbox 1 1 1 1 1 1 1 1 
+lbot.aim.hitbox.shared.hitbox 1 4 1 1 1 1 1 1 
 lbot.aim.hitbox.shared.hitboxstep 4
 lbot.aim.hitbox.shared.nearest "Off"
 lbot.aim.hitbox.shotgun.hitbox 1 1 1 1 1 1 1 1 
@@ -316,7 +316,7 @@ lbot.weapon.accuracy.scout.rcs "Off"
 lbot.weapon.accuracy.scout.vrecoil 0
 lbot.weapon.accuracy.shared.hrecoil 64
 lbot.weapon.accuracy.shared.rcs "Aiming and Standalone"
-lbot.weapon.accuracy.shared.vrecoil 100
+lbot.weapon.accuracy.shared.vrecoil 80
 lbot.weapon.accuracy.shotgun.hrecoil 0
 lbot.weapon.accuracy.shotgun.rcs "Aiming"
 lbot.weapon.accuracy.shotgun.vrecoil 100
@@ -354,8 +354,8 @@ lbot.weapon.aim.scout.curve 0.25
 lbot.weapon.aim.scout.randomize 0
 lbot.weapon.aim.scout.smooth 5
 lbot.weapon.aim.scout.smoothtype "Dynamic"
-lbot.weapon.aim.shared.curve 0.5
-lbot.weapon.aim.shared.randomize 2.5
+lbot.weapon.aim.shared.curve 0.25
+lbot.weapon.aim.shared.randomize 1
 lbot.weapon.aim.shared.smooth 10
 lbot.weapon.aim.shared.smoothtype "Dynamic"
 lbot.weapon.aim.shotgun.curve 0.25
