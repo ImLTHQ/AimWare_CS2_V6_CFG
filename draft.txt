@@ -79,9 +79,8 @@ AimWare V6中文教程
 
     Show Spectators - 显示观战者
 
-    Anti-OBS - 绕过录屏软件
-        录屏软件不显示外挂界面
-        目前无效
+    Anti-OBS - 绕过OBS
+        OBS游戏捕获生效, 不支持其它捕获
 
     Show Watermark - 显示AW水印
 
@@ -353,4 +352,4 @@ AimWare V6中文教程
             Off - 关闭
 
 
-最后更新：2025-11-09
+最后更新：2025-11-14
