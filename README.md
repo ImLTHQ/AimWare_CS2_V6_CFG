@@ -72,6 +72,7 @@
 
 - **Anti-OBS** - 绕过OBS
   - OBS游戏捕获生效，不支持其它捕获
+  - 需要修改CS2启动参数: `-allow_third_party_software`
 
 - **Show Watermark** - 显示 AW 水印
 
