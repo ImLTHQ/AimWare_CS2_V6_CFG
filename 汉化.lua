@@ -32,3 +32,10 @@ NM(RF("Legitbot"),"合法")
             end
         NM(RF("合法", "扳机", "Hitboxes"),"部位")
     NM(RF("合法", "Weapon"),"武器")
+        NM(RF("合法", "武器", "Aiming"),"瞄准")
+            for i = 1, 11, 1 do
+                NM(RF("合法", "武器", "瞄准", WeaponList[i], "Smooth Factor"),"平滑因子")
+                NM(RF("合法", "武器", "瞄准", WeaponList[i], "Smooth Method"),"平滑方式")
+                NM(RF("合法", "武器", "瞄准", WeaponList[i], "Randomize Factor"),"随机因子")
+                NM(RF("合法", "武器", "瞄准", WeaponList[i], "Curve Factor"),"曲线因子")
+            end
