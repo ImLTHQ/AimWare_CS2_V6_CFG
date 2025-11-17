@@ -42,7 +42,7 @@ NM(RF("Legitbot"),"合法")
             for i = 1, 11, 1 do
                 NM(RF("合法", "武器", "目标", WeaponList[i], "Minimum FOV Range"),"最小范围")
                 NM(RF("合法", "武器", "目标", WeaponList[i], "Maximum FOV Range"),"最大范围")
-                NM(RF("合法", "武器", "目标", WeaponList[i], "Non-Sticky Target"),"超过范围不锁定")
+                NM(RF("合法", "武器", "目标", WeaponList[i], "Non-Sticky Target"),"超过范围不自瞄")
                 NM(RF("合法", "武器", "目标", WeaponList[i], "Target Switch Delay"),"目标切换延迟")
-                NM(RF("合法", "武器", "目标", WeaponList[i], "First Shot Delay"),"首射延迟")
+                NM(RF("合法", "武器", "目标", WeaponList[i], "First Shot Delay"),"首次射击延迟")
             end
