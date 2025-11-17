@@ -1,2 +1,2 @@
-local fvis = gui.Reference("Legitbot")
-print(fvis:GetName())
+local FindName = gui.Reference("Legitbot")
+print(FindName:GetName())

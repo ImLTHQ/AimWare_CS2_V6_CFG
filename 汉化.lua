@@ -7,9 +7,10 @@ local function NM(RFName,SetName)  RFName:SetName(SetName)  end
 ---
 
 NM(RF("Legitbot"),"合法")
-
     NM(RF("合法", "Aimbot"),"自瞄")
         NM(RF("合法", "自瞄", "Main"),"主要")
-
+            NM(RF("合法", "自瞄", "主要", "Enable"),"启用")
+            NM(RF("合法", "自瞄", "主要", "Aim Key"),"热键")
+            NM(RF("合法", "自瞄", "主要", "Auto Pistol Interval"),"自动手枪间隔")
     NM(RF("合法", "Triggerbot"),"扳机")
     NM(RF("合法", "Weapon"),"武器")
