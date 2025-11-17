@@ -4,6 +4,12 @@ local RF=gui.Reference
 
 local function NM(RFName,SetName)  RFName:SetName(SetName)  end
 
+NM(RF("Configurations"),"参数")
+    NM(RF("参数", "Local"),"本地")
+
+NM(RF("Lua Scripts"),"Lua脚本")
+    NM(RF("Lua脚本", "Local"),"本地")
+
 NM(RF("Legitbot"),"合法")
     NM(RF("合法", "Aimbot"),"自瞄")
         NM(RF("合法", "自瞄", "Main"),"主要")
@@ -55,6 +61,6 @@ NM(RF("Legitbot"),"合法")
             end
         NM(RF("合法", "武器", "Visibility"),"可见性")
             for i = 1, 11, 1 do
-                NM(RF("合法", "武器", "可见性", WeaponList[i], "Auto Wall"),"自动穿墙")
-                NM(RF("合法", "武器", "可见性", WeaponList[i], "Through Smoke"),"穿透烟雾")
+                NM(RF("合法", "武器", "可见性", WeaponList[i], "Auto Wall"),"穿墙")
+                NM(RF("合法", "武器", "可见性", WeaponList[i], "Through Smoke"),"穿烟")
             end
