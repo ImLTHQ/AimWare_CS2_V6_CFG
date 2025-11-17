@@ -295,7 +295,7 @@ lbot.trg.weapon.zeus.accuracy.antispread "On"
 lbot.trg.weapon.zeus.burst 200
 lbot.trg.weapon.zeus.delay 0
 lbot.trg.weapon.zeus.hitchance 50
-lbot.weapon.accuracy "Zeus"
+lbot.weapon.accuracy "Heavy Pistol"
 lbot.weapon.accuracy.asniper.hrecoil 64
 lbot.weapon.accuracy.asniper.rcs "Aiming and Standalone"
 lbot.weapon.accuracy.asniper.vrecoil 80
@@ -380,21 +380,21 @@ lbot.weapon.target.asniper.maxfov 2.5
 lbot.weapon.target.asniper.minfov 0
 lbot.weapon.target.asniper.nst "On"
 lbot.weapon.target.asniper.tsd 300
-lbot.weapon.target.hpistol.fsd 300
-lbot.weapon.target.hpistol.maxfov 2.5
+lbot.weapon.target.hpistol.fsd 0
+lbot.weapon.target.hpistol.maxfov 0
 lbot.weapon.target.hpistol.minfov 0
-lbot.weapon.target.hpistol.nst "On"
-lbot.weapon.target.hpistol.tsd 300
+lbot.weapon.target.hpistol.nst "Off"
+lbot.weapon.target.hpistol.tsd 0
 lbot.weapon.target.lmg.fsd 0
 lbot.weapon.target.lmg.maxfov 2.5
 lbot.weapon.target.lmg.minfov 0
 lbot.weapon.target.lmg.nst "On"
 lbot.weapon.target.lmg.tsd 300
-lbot.weapon.target.pistol.fsd 300
-lbot.weapon.target.pistol.maxfov 2.5
+lbot.weapon.target.pistol.fsd 0
+lbot.weapon.target.pistol.maxfov 0
 lbot.weapon.target.pistol.minfov 0
-lbot.weapon.target.pistol.nst "On"
-lbot.weapon.target.pistol.tsd 300
+lbot.weapon.target.pistol.nst "Off"
+lbot.weapon.target.pistol.tsd 0
 lbot.weapon.target.rifle.fsd 0
 lbot.weapon.target.rifle.maxfov 2.5
 lbot.weapon.target.rifle.minfov 0
@@ -425,11 +425,11 @@ lbot.weapon.target.sniper.maxfov 0
 lbot.weapon.target.sniper.minfov 0
 lbot.weapon.target.sniper.nst "Off"
 lbot.weapon.target.sniper.tsd 0
-lbot.weapon.target.zeus.fsd 300
-lbot.weapon.target.zeus.maxfov 30
+lbot.weapon.target.zeus.fsd 0
+lbot.weapon.target.zeus.maxfov 0
 lbot.weapon.target.zeus.minfov 0
 lbot.weapon.target.zeus.nst "Off"
-lbot.weapon.target.zeus.tsd 1000
+lbot.weapon.target.zeus.tsd 0
 lbot.weapon.vis "Shared"
 lbot.weapon.vis.asniper.autowall "Off"
 lbot.weapon.vis.asniper.smoke "Off"
