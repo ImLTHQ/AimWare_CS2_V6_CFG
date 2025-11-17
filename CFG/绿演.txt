@@ -462,7 +462,7 @@ misc.autostrafe "Off"
 misc.chatspam "Off"
 misc.edgejump 69
 misc.killfeed "Off"
-misc.log.console "Off"
+misc.log.console "On"
 misc.log.damage "Off"
 misc.log.purchases "Off"
 misc.master "On"
