@@ -53,3 +53,8 @@ NM(RF("Legitbot"),"合法")
                 NM(RF("合法", "武器", "瞄准", WeaponList[i], "Randomize Factor"),"随机因子")
                 NM(RF("合法", "武器", "瞄准", WeaponList[i], "Curve Factor"),"曲线因子")
             end
+        NM(RF("合法", "武器", "Visibility"),"可见性")
+            for i = 1, 11, 1 do
+                NM(RF("合法", "武器", "可见性", WeaponList[i], "Auto Wall"),"自动穿墙")
+                NM(RF("合法", "武器", "可见性", WeaponList[i], "Through Smoke"),"穿透烟雾")
+            end
