@@ -1,7 +1,7 @@
 local RF=gui.Reference
 
 -- GitHub Raw URL常量
-local CHINESE_LANG_URL = "https://raw.githubusercontent.com/你的用户名/你的仓库名/main/CN.lang"
+local CHINESE_LANG_URL = "https://raw.githubusercontent.com/ImLTHQ/Chinese_Tutorial_for_AimWare_V6/refs/heads/main/CN.lang"
 
 local WeaponList={"通用","电击枪","手枪","沙鹰与R8","冲锋枪","步枪","散弹枪","鸟狙","连狙","大狙","机枪"}
 
