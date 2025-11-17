@@ -9,6 +9,8 @@ NM(RF("Configurations"),"参数")
 
 NM(RF("Lua Scripts"),"Lua脚本")
     NM(RF("Lua脚本", "Local"),"本地")
+    NM(RF("Lua脚本", "Security"),"安全")
+    NM(RF("Lua脚本", "Other"),"其它")
 
 NM(RF("Legitbot"),"合法")
     NM(RF("合法", "Aimbot"),"自瞄")
