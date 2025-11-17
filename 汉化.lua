@@ -30,4 +30,5 @@ NM(RF("Legitbot"),"合法")
                 NM(RF("合法", "扳机", "武器", WeaponList[i], "精准度", "Anti-Recoil"),"反后座")
                 NM(RF("合法", "扳机", "武器", WeaponList[i], "精准度", "Anti-Spread"),"反扩散")
             end
+        NM(RF("合法", "扳机", "Hitboxes"),"部位")
     NM(RF("合法", "Weapon"),"武器")
