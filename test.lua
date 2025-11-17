@@ -1,6 +1,3 @@
-local FindName = gui.Reference("Legitbot")
-print(FindName:GetName())
-
 local function PrintChildren(obj, prefix)
     print(prefix .. obj:GetName());
     for child in obj:Children() do
