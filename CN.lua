@@ -73,3 +73,5 @@ NM(RF("Legitbot"),"合法")
                 NM(RF("合法", "武器", "可见性", WeaponList[i], "Auto Wall"),"穿墙")
                 NM(RF("合法", "武器", "可见性", WeaponList[i], "Through Smoke"),"穿烟")
             end
+
+print("汉化已加载, 请勿重复加载脚本")
