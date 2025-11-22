@@ -339,6 +339,17 @@ NM(RF("Visuals"),"视觉")
                 RF("视觉", "自身", "上色", "可见手臂(第一人称)"):SetOptions("关闭","平面","纹理","发光","塑料","金属")
 
 NM(RF("World"),"世界")
+    NM(RF("世界", "Camera"),"相机")
+        NM(RF("世界", "相机", "Third Person Enable"),"第三人称启用")
+        NM(RF("世界", "相机", "Third Person Distance"),"第三人称距离")
+        NM(RF("世界", "相机", "View FOV"),"视野范围")
+        NM(RF("世界", "相机", "Viewmodel FOV"),"武器模型范围")
+    NM(RF("世界", "Extra"),"额外")
+        NM(RF("世界", "额外", "Radar"),"雷达")
+        NM(RF("世界", "额外", "Visualize Aimbot"),"显示解析点")
+        NM(RF("世界", "额外", "Crosshair"),"准星")
+        NM(RF("世界", "额外", "Crosshair Recoil"),"可视后座力")
+            RF("世界", "额外", "可视后座力"):SetOptions("关闭","线性","实体","命中率")
 
 
 print("作者: XiaoYeCK")
