@@ -123,116 +123,51 @@ NM(RF("Ragebot"),"暴力")
             NM(RF("暴力", "部位", WeaponList[i], "Limbs", "Center"),"中心")
         end
     NM(RF("暴力", "Automate"),"自动操作")
-        -- Shared (有 Auto Fire, Auto Scope, Auto Stop)
+        -- Auto Stop 适用于所有武器
+        for i = 1, 11, 1 do
+            NM(RF("暴力", "自动操作", WeaponList[i], "Auto Stop"),"自动急停")
+                NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Stop"),"急停")
+                NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Slow Walk"),"慢走")
+                NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Duck"),"蹲下")
+                NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Early"),"提前")
+                NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Between Shots"),"射击间隙")
+        end
+
+        -- Shared
         NM(RF("暴力", "自动操作", "Shared", "Auto Fire"),"自动开火")
             NM(RF("暴力", "自动操作", "Shared", "自动开火", "Auto Pistol"),"自动手枪")
             NM(RF("暴力", "自动操作", "Shared", "自动开火", "Auto Revolver"),"自动左轮")
+
         NM(RF("暴力", "自动操作", "Shared", "Auto Scope"),"自动开关镜")
             NM(RF("暴力", "自动操作", "Shared", "自动开关镜", "Scope"),"自动开镜")
             NM(RF("暴力", "自动操作", "Shared", "自动开关镜", "Unscope"),"自动关镜")
-        NM(RF("暴力", "自动操作", "Shared", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Shared", "自动急停", "Stop"),"急停")
-            NM(RF("暴力", "自动操作", "Shared", "自动急停", "Slow Walk"),"慢走")
-            NM(RF("暴力", "自动操作", "Shared", "自动急停", "Duck"),"蹲下")
-            NM(RF("暴力", "自动操作", "Shared", "自动急停", "Early"),"提前")
-            NM(RF("暴力", "自动操作", "Shared", "自动急停", "Between Shots"),"射击间隙")
         
-        -- Zeus (只有 Auto Stop)
-        NM(RF("暴力", "自动操作", "Zeus", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Zeus", "自动急停", "Stop"),"急停")
-            NM(RF("暴力", "自动操作", "Zeus", "自动急停", "Slow Walk"),"慢走")
-            NM(RF("暴力", "自动操作", "Zeus", "自动急停", "Duck"),"蹲下")
-            NM(RF("暴力", "自动操作", "Zeus", "自动急停", "Early"),"提前")
-            NM(RF("暴力", "自动操作", "Zeus", "自动急停", "Between Shots"),"射击间隙")
-        
-        -- Pistol (有 Auto Fire, Auto Stop)
+        -- Pistol
         NM(RF("暴力", "自动操作", "Pistol", "Auto Fire"),"自动开火")
             NM(RF("暴力", "自动操作", "Pistol", "Auto Fire", "Auto Pistol"),"自动手枪")
-        NM(RF("暴力", "自动操作", "Pistol", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Pistol", "Auto Stop", "Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Pistol", "Auto Stop", "Slow Walk"),"自动慢走")
-            NM(RF("暴力", "自动操作", "Pistol", "Auto Stop", "Duck"),"自动蹲下")
-            NM(RF("暴力", "自动操作", "Pistol", "Auto Stop", "Early"),"提前急停")
-            NM(RF("暴力", "自动操作", "Pistol", "Auto Stop", "Between Shots"),"射击间隙急停")
-        
-        -- Heavy Pistol (有 Auto Fire, Auto Stop)
+
+        -- Heavy Pistol
         NM(RF("暴力", "自动操作", "Heavy Pistol", "Auto Fire"),"自动开火")
             NM(RF("暴力", "自动操作", "Heavy Pistol", "Auto Fire", "Auto Pistol"),"自动手枪")
             NM(RF("暴力", "自动操作", "Heavy Pistol", "Auto Fire", "Auto Revolver"),"自动左轮")
-        NM(RF("暴力", "自动操作", "Heavy Pistol", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Heavy Pistol", "Auto Stop", "Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Heavy Pistol", "Auto Stop", "Slow Walk"),"自动慢走")
-            NM(RF("暴力", "自动操作", "Heavy Pistol", "Auto Stop", "Duck"),"自动蹲下")
-            NM(RF("暴力", "自动操作", "Heavy Pistol", "Auto Stop", "Early"),"提前急停")
-            NM(RF("暴力", "自动操作", "Heavy Pistol", "Auto Stop", "Between Shots"),"射击间隙急停")
-        
-        -- Submachine Gun (只有 Auto Stop)
-        NM(RF("暴力", "自动操作", "Submachine Gun", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Submachine Gun", "Auto Stop", "Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Submachine Gun", "Auto Stop", "Slow Walk"),"自动慢走")
-            NM(RF("暴力", "自动操作", "Submachine Gun", "Auto Stop", "Duck"),"自动蹲下")
-            NM(RF("暴力", "自动操作", "Submachine Gun", "Auto Stop", "Early"),"提前急停")
-            NM(RF("暴力", "自动操作", "Submachine Gun", "Auto Stop", "Between Shots"),"射击间隙急停")
-        
-        -- Rifle (只有 Auto Stop)
-        NM(RF("暴力", "自动操作", "Rifle", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Rifle", "Auto Stop", "Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Rifle", "Auto Stop", "Slow Walk"),"自动慢走")
-            NM(RF("暴力", "自动操作", "Rifle", "Auto Stop", "Duck"),"自动蹲下")
-            NM(RF("暴力", "自动操作", "Rifle", "Auto Stop", "Early"),"提前急停")
-            NM(RF("暴力", "自动操作", "Rifle", "Auto Stop", "Between Shots"),"射击间隙急停")
-        
-        -- Shotgun (只有 Auto Stop)
-        NM(RF("暴力", "自动操作", "Shotgun", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Shotgun", "Auto Stop", "Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Shotgun", "Auto Stop", "Slow Walk"),"自动慢走")
-            NM(RF("暴力", "自动操作", "Shotgun", "Auto Stop", "Duck"),"自动蹲下")
-            NM(RF("暴力", "自动操作", "Shotgun", "Auto Stop", "Early"),"提前急停")
-            NM(RF("暴力", "自动操作", "Shotgun", "Auto Stop", "Between Shots"),"射击间隙急停")
-        
-        -- Scout (有 Auto Fire, Auto Scope, Auto Stop)
+
+        -- Scout
         NM(RF("暴力", "自动操作", "Scout", "Auto Fire"),"自动开火")
             NM(RF("暴力", "自动操作", "Scout", "Auto Fire", "Auto Pistol"),"自动手枪")
         NM(RF("暴力", "自动操作", "Scout", "Auto Scope"),"自动开镜")
             NM(RF("暴力", "自动操作", "Scout", "Auto Scope", "Scope"),"自动开镜")
             NM(RF("暴力", "自动操作", "Scout", "Auto Scope", "Unscope"),"自动关镜")
-        NM(RF("暴力", "自动操作", "Scout", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Scout", "Auto Stop", "Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Scout", "Auto Stop", "Slow Walk"),"自动慢走")
-            NM(RF("暴力", "自动操作", "Scout", "Auto Stop", "Duck"),"自动蹲下")
-            NM(RF("暴力", "自动操作", "Scout", "Auto Stop", "Early"),"提前急停")
-            NM(RF("暴力", "自动操作", "Scout", "Auto Stop", "Between Shots"),"射击间隙急停")
-        
-        -- Auto Sniper (有 Auto Scope, Auto Stop)
+
+        -- Auto Sniper
         NM(RF("暴力", "自动操作", "Auto Sniper", "Auto Scope"),"自动开镜")
             NM(RF("暴力", "自动操作", "Auto Sniper", "Auto Scope", "Scope"),"自动开镜")
             NM(RF("暴力", "自动操作", "Auto Sniper", "Auto Scope", "Unscope"),"自动关镜")
-        NM(RF("暴力", "自动操作", "Auto Sniper", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Auto Sniper", "Auto Stop", "Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Auto Sniper", "Auto Stop", "Slow Walk"),"自动慢走")
-            NM(RF("暴力", "自动操作", "Auto Sniper", "Auto Stop", "Duck"),"自动蹲下")
-            NM(RF("暴力", "自动操作", "Auto Sniper", "Auto Stop", "Early"),"提前急停")
-            NM(RF("暴力", "自动操作", "Auto Sniper", "Auto Stop", "Between Shots"),"射击间隙急停")
-        
-        -- Sniper (有 Auto Fire, Auto Scope, Auto Stop)
+
+        -- Sniper
         NM(RF("暴力", "自动操作", "Sniper", "Auto Fire"),"自动开火")
             NM(RF("暴力", "自动操作", "Sniper", "Auto Fire", "Auto Pistol"),"自动手枪")
         NM(RF("暴力", "自动操作", "Sniper", "Auto Scope"),"自动开镜")
             NM(RF("暴力", "自动操作", "Sniper", "Auto Scope", "Scope"),"自动开镜")
             NM(RF("暴力", "自动操作", "Sniper", "Auto Scope", "Unscope"),"自动关镜")
-        NM(RF("暴力", "自动操作", "Sniper", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Sniper", "Auto Stop", "Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Sniper", "Auto Stop", "Slow Walk"),"自动慢走")
-            NM(RF("暴力", "自动操作", "Sniper", "Auto Stop", "Duck"),"自动蹲下")
-            NM(RF("暴力", "自动操作", "Sniper", "Auto Stop", "Early"),"提前急停")
-            NM(RF("暴力", "自动操作", "Sniper", "Auto Stop", "Between Shots"),"射击间隙急停")
-        
-        -- Light Machine Gun (只有 Auto Stop)
-        NM(RF("暴力", "自动操作", "Light Machine Gun", "Auto Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Light Machine Gun", "Auto Stop", "Stop"),"自动急停")
-            NM(RF("暴力", "自动操作", "Light Machine Gun", "Auto Stop", "Slow Walk"),"自动慢走")
-            NM(RF("暴力", "自动操作", "Light Machine Gun", "Auto Stop", "Duck"),"自动蹲下")
-            NM(RF("暴力", "自动操作", "Light Machine Gun", "Auto Stop", "Early"),"提前急停")
-            NM(RF("暴力", "自动操作", "Light Machine Gun", "Auto Stop", "Between Shots"),"射击间隙急停")
 
 print("汉化已加载, 请勿重复加载脚本")
