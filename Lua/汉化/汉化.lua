@@ -82,8 +82,10 @@ NM(RF("Ragebot"),"暴力")
         NM(RF("暴力", "主要", "Anti-Recoil"),"无后座")
         NM(RF("暴力", "主要", "Anti-Spread"),"无扩散")
         NM(RF("暴力", "主要", "Target Selection"),"目标选择")
+            RF("暴力", "主要", "目标选择"):SetOptions("最低血量", "距离最近", "准星最近");
         NM(RF("暴力", "主要", "FOV"),"范围")
         NM(RF("暴力", "主要", "Knifebot"),"自动刀")
+            RF("暴力", "主要", "自动刀"):SetOptions("关闭","默认","仅背刺","快速刀");
         NM(RF("暴力", "主要", "Duck Peek assist"),"假蹲")
     NM(RF("暴力", "Anti-Aim"),"反自瞄")
         NM(RF("暴力", "反自瞄", "Enabled"),"启用")
