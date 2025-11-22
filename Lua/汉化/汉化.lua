@@ -170,4 +170,12 @@ NM(RF("Ragebot"),"暴力")
             NM(RF("暴力", "自动", "Sniper", "自动开关镜", "Scope"),"自动开镜")
             NM(RF("暴力", "自动", "Sniper", "自动开关镜", "Unscope"),"自动关镜")
 
+NM(RF("Visuals"),"视觉")
+    NM(RF("视觉", "Enemy"),"敌人")
+        NM(RF("视觉", "敌人", "Overlay"),"预览")
+        NM(RF("视觉", "敌人", "Chams"),"上色")
+    NM(RF("视觉", "Team"),"队友")
+    NM(RF("视觉", "Weapon"),"武器")
+    NM(RF("视觉", "Local"),"自身")
+
 print("汉化已加载, 请勿重复加载脚本")
