@@ -415,6 +415,8 @@ NM(RF("Lua Scripts"),"Lua脚本")
     NM(RF("Lua脚本", "Other"),"其它")
         NM(RF("Lua脚本", "其它", "Load With Configurations"),"随参数加载")
 
+print("开源版")
 print("作者: XiaoYeCK")
 print("汉化脚本版本: 1.0")
+print("更新日期: 2025-11-22")
 print("汉化已加载, 请勿重复加载脚本")
