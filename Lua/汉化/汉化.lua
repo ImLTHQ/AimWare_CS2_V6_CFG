@@ -4,21 +4,6 @@ local RF=gui.Reference
 
 local function NM(RFName,SetName)  RFName:SetName(SetName)  end
 
-NM(RF("Configurations"),"参数")
-    NM(RF("参数", "Local"),"本地")
-
-NM(RF("Lua Scripts"),"Lua脚本")
-    NM(RF("Lua脚本", "Local"),"本地")
-    NM(RF("Lua脚本", "Security"),"安全")
-        NM(RF("Lua脚本", "安全", "Allow scripts to edit lua files"),"允许脚本编辑lua文件")
-        NM(RF("Lua脚本", "安全", "Allow scripts to edit cfg files"),"允许脚本编辑cfg文件")
-        NM(RF("Lua脚本", "安全", "Allow internet connections"),"允许网络连接")
-        NM(RF("Lua脚本", "安全", "Allow game scripting"),"允许游戏脚本")
-        NM(RF("Lua脚本", "安全", "Allow insecure FFI"),"允许不安全的FFI")
-        NM(RF("Lua脚本", "安全", "Save Lua Permissions"),"保存Lua权限")
-    NM(RF("Lua脚本", "Other"),"其它")
-        NM(RF("Lua脚本", "其它", "Load With Configurations"),"随参数加载")
-
 NM(RF("Legitbot"),"合法")
     NM(RF("合法", "Aimbot"),"自瞄")
         NM(RF("合法", "自瞄", "Main"),"主要")
@@ -414,6 +399,21 @@ NM(RF("Miscellaneous"),"杂项")
         NM(RF("杂项", "移动", "Slow Walk Key"),"慢走热键")
         NM(RF("杂项", "移动", "Slow Walk Speed"),"慢走速度")
         NM(RF("杂项", "移动", "Quick Stop"),"快速急停")
+
+NM(RF("Configurations"),"参数")
+    NM(RF("参数", "Local"),"本地")
+
+NM(RF("Lua Scripts"),"Lua脚本")
+    NM(RF("Lua脚本", "Local"),"本地")
+    NM(RF("Lua脚本", "Security"),"安全")
+        NM(RF("Lua脚本", "安全", "Allow scripts to edit lua files"),"允许脚本编辑lua文件")
+        NM(RF("Lua脚本", "安全", "Allow scripts to edit cfg files"),"允许脚本编辑cfg文件")
+        NM(RF("Lua脚本", "安全", "Allow internet connections"),"允许网络连接")
+        NM(RF("Lua脚本", "安全", "Allow game scripting"),"允许游戏脚本")
+        NM(RF("Lua脚本", "安全", "Allow insecure FFI"),"允许不安全的FFI")
+        NM(RF("Lua脚本", "安全", "Save Lua Permissions"),"保存Lua权限")
+    NM(RF("Lua脚本", "Other"),"其它")
+        NM(RF("Lua脚本", "其它", "Load With Configurations"),"随参数加载")
 
 print("作者: XiaoYeCK")
 print("汉化脚本版本: 1.0")
