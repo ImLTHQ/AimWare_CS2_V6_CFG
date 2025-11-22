@@ -107,8 +107,8 @@ NM(RF("Ragebot"),"暴力")
         NM(RF("暴力", "自动Peek", "Enable"),"启用")
         NM(RF("暴力", "自动Peek", "Key"),"热键")
         NM(RF("暴力", "自动Peek", "Show indicator"),"显示指示器")
-        NM(RF("暴力", "自动Peek", "Type"),"类型")
-            RF("暴力", "自动Peek", "类型"):SetOptions("按住","切换");
+        NM(RF("暴力", "自动Peek", "Type"),"模式")
+            RF("暴力", "自动Peek", "模式"):SetOptions("按住","切换");
         NM(RF("暴力", "自动Peek", "Maintain Origin"),"复位")
     NM(RF("暴力", "Accuracy"),"数值")
         for i = 1, 11, 1 do
