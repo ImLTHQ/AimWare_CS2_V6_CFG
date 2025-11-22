@@ -237,6 +237,6 @@ NM(RF("Visuals"),"视觉")
     NM(RF("视觉", "Weapon"),"武器")
     NM(RF("视觉", "Local"),"自身")
 
-print("汉化脚本作者: XiaoYeCK")
+print("作者: XiaoYeCK")
 print("汉化脚本版本: 1.0")
 print("汉化已加载, 请勿重复加载脚本")
