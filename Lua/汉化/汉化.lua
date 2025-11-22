@@ -91,9 +91,9 @@ NM(RF("Ragebot"),"暴力")
         NM(RF("暴力", "主要", "Duck Peek assist"),"假蹲")
     NM(RF("暴力", "Anti-Aim"),"反自瞄")
         NM(RF("暴力", "反自瞄", "Enabled"),"启用")
-        NM(RF("暴力", "反自瞄", "Pitch Angle"),"俯仰角")
+        NM(RF("暴力", "反自瞄", "Pitch Angle"),"俯仰角度")
             RF("暴力", "反自瞄", "俯仰角度"):SetOptions("关闭","低头","抬头","假抬头","平视");
-        NM(RF("暴力", "反自瞄", "Yaw Angle"),"偏航角")
+        NM(RF("暴力", "反自瞄", "Yaw Angle"),"偏航角度")
             RF("暴力", "反自瞄", "偏航角度"):SetOptions("朝前","背身");
         NM(RF("暴力", "反自瞄", "Auto Direction"),"自动朝向")
             NM(RF("暴力", "反自瞄", "自动朝向", "At Edges"),"墙边藏头")
