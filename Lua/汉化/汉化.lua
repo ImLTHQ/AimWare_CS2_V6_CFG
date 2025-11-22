@@ -123,6 +123,15 @@ NM(RF("Ragebot"),"暴力")
             NM(RF("暴力", "部位", WeaponList[i], "Limbs", "Center"),"中心")
         end
     NM(RF("暴力", "Automate"),"自动操作")
+        -- Shared
+        NM(RF("暴力", "自动操作", "Shared", "Auto Fire"),"自动开火")
+            NM(RF("暴力", "自动操作", "Shared", "自动开火", "Auto Pistol"),"自动手枪")
+            NM(RF("暴力", "自动操作", "Shared", "自动开火", "Auto Revolver"),"自动左轮")
+
+        NM(RF("暴力", "自动操作", "Shared", "Auto Scope"),"自动开关镜")
+            NM(RF("暴力", "自动操作", "Shared", "自动开关镜", "Scope"),"自动开镜")
+            NM(RF("暴力", "自动操作", "Shared", "自动开关镜", "Unscope"),"自动关镜")
+
         -- Auto Stop 适用于所有武器
         for i = 1, 11, 1 do
             NM(RF("暴力", "自动操作", WeaponList[i], "Auto Stop"),"自动急停")
@@ -133,15 +142,6 @@ NM(RF("Ragebot"),"暴力")
                 NM(RF("暴力", "自动操作", WeaponList[i], "自动急停", "Between Shots"),"射击间隙")
         end
 
-        -- Shared
-        NM(RF("暴力", "自动操作", "Shared", "Auto Fire"),"自动开火")
-            NM(RF("暴力", "自动操作", "Shared", "自动开火", "Auto Pistol"),"自动手枪")
-            NM(RF("暴力", "自动操作", "Shared", "自动开火", "Auto Revolver"),"自动左轮")
-
-        NM(RF("暴力", "自动操作", "Shared", "Auto Scope"),"自动开关镜")
-            NM(RF("暴力", "自动操作", "Shared", "自动开关镜", "Scope"),"自动开镜")
-            NM(RF("暴力", "自动操作", "Shared", "自动开关镜", "Unscope"),"自动关镜")
-        
         -- Pistol
         NM(RF("暴力", "自动操作", "Pistol", "Auto Fire"),"自动开火")
             NM(RF("暴力", "自动操作", "Pistol", "Auto Fire", "Auto Pistol"),"自动手枪")
